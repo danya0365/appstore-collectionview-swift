@@ -14,6 +14,15 @@
 		4956625220A3EA3B007E4F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4956625020A3EA3B007E4F83 /* LaunchScreen.storyboard */; };
 		4956625D20A3EA3B007E4F83 /* AppStoreCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4956625C20A3EA3B007E4F83 /* AppStoreCollectionViewTests.swift */; };
 		4956626820A3EA3B007E4F83 /* AppStoreCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4956626720A3EA3B007E4F83 /* AppStoreCollectionViewUITests.swift */; };
+		4956627F20A3EC9B007E4F83 /* example-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627620A3EC9B007E4F83 /* example-8.jpg */; };
+		4956628020A3EC9B007E4F83 /* example-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627720A3EC9B007E4F83 /* example-9.jpg */; };
+		4956628120A3EC9B007E4F83 /* example-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627820A3EC9B007E4F83 /* example-7.jpg */; };
+		4956628220A3EC9B007E4F83 /* example-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627920A3EC9B007E4F83 /* example-6.jpg */; };
+		4956628320A3EC9B007E4F83 /* example-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627A20A3EC9B007E4F83 /* example-4.jpg */; };
+		4956628420A3EC9B007E4F83 /* example-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627B20A3EC9B007E4F83 /* example-5.jpg */; };
+		4956628520A3EC9B007E4F83 /* example-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627C20A3EC9B007E4F83 /* example-1.jpg */; };
+		4956628620A3EC9B007E4F83 /* example-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627D20A3EC9B007E4F83 /* example-2.jpg */; };
+		4956628720A3EC9B007E4F83 /* example-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4956627E20A3EC9B007E4F83 /* example-3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		4956626320A3EA3B007E4F83 /* AppStoreCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4956626720A3EA3B007E4F83 /* AppStoreCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreCollectionViewUITests.swift; sourceTree = "<group>"; };
 		4956626920A3EA3B007E4F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4956627620A3EC9B007E4F83 /* example-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-8.jpg"; sourceTree = "<group>"; };
+		4956627720A3EC9B007E4F83 /* example-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-9.jpg"; sourceTree = "<group>"; };
+		4956627820A3EC9B007E4F83 /* example-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-7.jpg"; sourceTree = "<group>"; };
+		4956627920A3EC9B007E4F83 /* example-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-6.jpg"; sourceTree = "<group>"; };
+		4956627A20A3EC9B007E4F83 /* example-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-4.jpg"; sourceTree = "<group>"; };
+		4956627B20A3EC9B007E4F83 /* example-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-5.jpg"; sourceTree = "<group>"; };
+		4956627C20A3EC9B007E4F83 /* example-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-1.jpg"; sourceTree = "<group>"; };
+		4956627D20A3EC9B007E4F83 /* example-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-2.jpg"; sourceTree = "<group>"; };
+		4956627E20A3EC9B007E4F83 /* example-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,7 @@
 		4956624620A3EA39007E4F83 /* AppStoreCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				4956627520A3EC9B007E4F83 /* Images */,
 				4956624720A3EA39007E4F83 /* AppDelegate.swift */,
 				4956624920A3EA39007E4F83 /* ViewController.swift */,
 				4956624B20A3EA39007E4F83 /* Main.storyboard */,
@@ -123,6 +142,22 @@
 				4956626920A3EA3B007E4F83 /* Info.plist */,
 			);
 			path = AppStoreCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		4956627520A3EC9B007E4F83 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4956627620A3EC9B007E4F83 /* example-8.jpg */,
+				4956627720A3EC9B007E4F83 /* example-9.jpg */,
+				4956627820A3EC9B007E4F83 /* example-7.jpg */,
+				4956627920A3EC9B007E4F83 /* example-6.jpg */,
+				4956627A20A3EC9B007E4F83 /* example-4.jpg */,
+				4956627B20A3EC9B007E4F83 /* example-5.jpg */,
+				4956627C20A3EC9B007E4F83 /* example-1.jpg */,
+				4956627D20A3EC9B007E4F83 /* example-2.jpg */,
+				4956627E20A3EC9B007E4F83 /* example-3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +264,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4956628720A3EC9B007E4F83 /* example-3.jpg in Resources */,
+				4956628120A3EC9B007E4F83 /* example-7.jpg in Resources */,
+				4956628320A3EC9B007E4F83 /* example-4.jpg in Resources */,
 				4956625220A3EA3B007E4F83 /* LaunchScreen.storyboard in Resources */,
+				4956627F20A3EC9B007E4F83 /* example-8.jpg in Resources */,
+				4956628020A3EC9B007E4F83 /* example-9.jpg in Resources */,
 				4956624F20A3EA3B007E4F83 /* Assets.xcassets in Resources */,
+				4956628420A3EC9B007E4F83 /* example-5.jpg in Resources */,
+				4956628620A3EC9B007E4F83 /* example-2.jpg in Resources */,
 				4956624D20A3EA39007E4F83 /* Main.storyboard in Resources */,
+				4956628520A3EC9B007E4F83 /* example-1.jpg in Resources */,
+				4956628220A3EC9B007E4F83 /* example-6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
