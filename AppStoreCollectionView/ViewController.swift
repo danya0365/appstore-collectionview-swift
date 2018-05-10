@@ -23,6 +23,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        automaticallyAdjustsScrollViewInsets = false
+        
         for index in 1..<10 {
             let appStoreItem = AppStoreItem()
             appStoreItem.imageName = "example-\(index).jpg"
@@ -45,8 +47,9 @@ class ViewController: UIViewController {
         let height = collectionView.bounds.size.height // width * (9/16)
         itemSize = CGSize(width: width, height: height)
         print("itemSize: \(itemSize)")
-        //collectionViewHeight.constant = height
-        //view.layoutIfNeeded()
+        collectionViewHeight.constant = height
+        view.layoutIfNeeded()
+        collectionView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
