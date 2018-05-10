@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for index in 1...10 {
+        for index in 1..<10 {
             let appStoreItem = AppStoreItem()
             appStoreItem.imageName = "example-\(index).jpg"
             appStoreItems.append(appStoreItem)
@@ -37,16 +37,16 @@ class ViewController: UIViewController {
             layout.sectionInset = sectionInsets
             layout.scrollDirection = .horizontal
         }
-        collectionView.contentInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 8)
+        collectionView.contentInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
         collectionView.isPagingEnabled = false
         view.layoutIfNeeded()
         
-        let width = collectionView.bounds.size.width-24
-        let height = width * (9/16)
+        let width = collectionView.bounds.size.width-32
+        let height = collectionView.bounds.size.height // width * (9/16)
         itemSize = CGSize(width: width, height: height)
         print("itemSize: \(itemSize)")
-        collectionViewHeight.constant = height
-        view.layoutIfNeeded()
+        //collectionViewHeight.constant = height
+        //view.layoutIfNeeded()
     }
 
     override func didReceiveMemoryWarning() {
