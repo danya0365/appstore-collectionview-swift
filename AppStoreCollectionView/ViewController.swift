@@ -88,7 +88,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-
+        collectionView.scrollToItem(at: indexPath, at: .left, animated: false)
     }
     
     //MARK: flowlayout
